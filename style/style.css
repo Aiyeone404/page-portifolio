@@ -1,0 +1,115 @@
+@font-face {
+    font-family: quantify;
+    src: url(font/Quantify.ttf)format(truetype);
+}
+:root{
+    --cor1:#100126;
+    --cor2:#56208C;
+    --cor3:#8836BF;
+    --cor4:#CA6DF2;
+    --cor5:#DC8DF2;
+}
+.icon{
+    font-size: 20px;
+    font-family: quantify;
+}
+body{
+    margin: 0px;
+    background-image: linear-gradient(80deg,var(--cor1),var(--cor2));
+}.menu{
+    background-image: linear-gradient(to right,var(--cor2),var(--cor3));
+    width: auto;
+    height: 70px;
+    position: relative;
+}
+#github{
+    font-size: 70px;
+}
+#social{
+    text-align: center;
+    padding-top: 50px;
+}
+.title{
+    padding-left: 20px;
+    font-family: quantify;
+    font-size: 7mm;
+    padding-top: 3px;
+    color: var(--cor1);  
+    text-shadow: 
+        0 0 5px #fff,  /* Brilho suave em branco */
+        0 0 10px #fff, /* Brilho mais forte em branco */
+        0 0 20px #ff00ff, /* Brilho roxo */
+        0 0 30px #ff00ff, /* Brilho roxo mais forte */
+        0 0 40px #ff00ff, /* Brilho roxo intenso */
+        0 0 50px #ff00ff; /* Brilho roxo bem forte */
+}
+.menu>span{
+    padding-right:50px;
+}
+#gif{
+    padding-left: 750px;
+    position: absolute;
+    top: 100px;
+}
+img{
+    border-radius: 20px;
+}
+.inf{
+    box-shadow: 2px 2px 3px 4px var(--cor1);
+    text-align: center;
+    margin-left: 440px;
+    width: 280px;
+    height: 300px;
+    margin-top:30px;
+    border-radius: 15px;
+    position: relative;
+    background-image: linear-gradient(45deg,var(--cor1),#8f3fdfd7);
+    color: white;
+}
+.tec>i{
+    font-size: 50px;
+    padding-top: 20px;
+}
+.tec-container {
+    display: flex;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    position:absolute;
+    gap:15px;
+    padding-left: 350px;
+    height: 200px;
+    width: auto;
+}
+.tec{
+    text-align: center;
+    position: relative;
+    border-radius: 10px 10px;
+    padding-top:22px;
+    margin: auto;
+    margin-top: 20px;
+    width: 180px;
+    height: 130px;
+    background-image: linear-gradient(60deg, #020659,#8313F2);
+}
+.tag{
+    font-size: 2em;
+}
+.tag abbr{
+    text-decoration: none;
+}
+#tecnologias{
+   text-align: center;
+   padding-left: 140px;
+}
+.tec:hover{
+    transform: translateY(-5px);
+    transition: transform 0.6s ease;
+}
+#perfil{
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 320px;
+    border-radius: 50%;
+}
